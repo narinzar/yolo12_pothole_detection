@@ -59,7 +59,7 @@ class PyResearchVisualizer:
 
 def generate_frames():
     visualizer = PyResearchVisualizer()
-    cap = cv2.VideoCapture("demo.mp4")
+    cap = cv2.VideoCapture("pathole.mp4")
     
     while cap.isOpened():
         success, frame = cap.read()
